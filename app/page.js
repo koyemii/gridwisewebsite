@@ -7,7 +7,7 @@ export default function HomePage() {
         <div className="eyebrow">AI-Native Operational Intelligence</div>
         <h1>Operational intelligence for energy-intensive industries.</h1>
         <p>
-          gridwise helps industrial facilities align energy-intensive operations
+          <strong>gridwise</strong> helps industrial facilities align energy-intensive operations
           with electricity market conditions and renewable generation, reducing
           energy costs while supporting a more efficient power system.
         </p>
@@ -39,10 +39,10 @@ export default function HomePage() {
       <section className="section container">
         <div className="split">
           <div>
-            <div className="pill">What gridwise Does</div>
+            <div className="pill">What <strong>gridwise</strong> Does</div>
             <h2 className="section-title">Connect industrial operations to system conditions.</h2>
             <p className="section-lead">
-              gridwise provides an AI-native operational intelligence platform
+              <strong>gridwise</strong> provides an AI-native operational intelligence platform
               that continuously evaluates electricity prices, renewable
               generation patterns and grid conditions to identify opportunities
               to optimise when and how energy-intensive processes operate.
@@ -129,9 +129,9 @@ export default function HomePage() {
         <div className="split">
           <div>
             <div className="pill">Pilot Programme</div>
-            <h2 className="section-title">Explore the gridwise Pilot Programme.</h2>
+            <h2 className="section-title">Explore the <strong>gridwise</strong> Pilot Programme.</h2>
             <p className="section-lead">
-              Early partner facilities work with gridwise to identify
+              Early partner facilities work with <strong>gridwise</strong> to identify
               operational flexibility and quantify optimisation opportunities.
             </p>
             <Link className="button-primary" href="/poc">
@@ -167,13 +167,13 @@ export default function HomePage() {
             <p className="section-lead">
               Industrial energy users represent one of the largest sources of
               flexible demand. By enabling facilities to respond intelligently to
-              grid conditions, gridwise helps reduce peak demand pressure,
+              grid conditions, <strong>gridwise</strong> helps reduce peak demand pressure,
               improve use of existing infrastructure, support renewable
               integration and reduce reliance on emergency generation.
             </p>
           </div>
           <div className="card">
-            <h3>Work with gridwise</h3>
+            <h3>Work with <strong>gridwise</strong></h3>
             <p>
               Industrial facilities interested in exploring demand flexibility
               can participate in the pilot programme.

@@ -9,7 +9,7 @@ export default function PocPage() {
       <div className="pill">POC</div>
       <h1 className="section-title">Pilot programme for industrial operational flexibility.</h1>
       <p className="section-lead">
-        Early partner facilities work with gridwise to identify operational
+        Early partner facilities work with <strong>gridwise</strong> to identify operational
         flexibility and quantify potential energy optimisation opportunities.
       </p>
 

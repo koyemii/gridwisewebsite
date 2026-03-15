@@ -34,7 +34,7 @@ export default function SiteFooter() {
         and electricity market conditions.
       </div>
       <div className="container" style={{ marginTop: "12px", fontSize: "12px" }}>
-        © 2026 gridwise. All rights reserved.
+        © 2026 <strong>gridwise</strong>. All rights reserved.
       </div>
     </footer>
   );

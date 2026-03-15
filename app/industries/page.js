@@ -9,7 +9,7 @@ export default function IndustriesPage() {
       <div className="pill">Industries</div>
       <h1 className="section-title">Built for sectors where flexibility can be operationalised.</h1>
       <p className="section-lead">
-        gridwise focuses on industries where operational flexibility can be
+        <strong>gridwise</strong> focuses on industries where operational flexibility can be
         coordinated without disrupting production outcomes.
       </p>
 

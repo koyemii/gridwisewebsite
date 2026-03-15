@@ -9,7 +9,7 @@ export default function ProductPage() {
       <div className="pill">Product</div>
       <h1 className="section-title">AI-native operational intelligence for industrial energy demand.</h1>
       <p className="section-lead">
-        gridwise connects facility operations with electricity system
+        <strong>gridwise</strong> connects facility operations with electricity system
         conditions, identifying when and how energy-intensive processes can be
         coordinated to improve economic and system outcomes.
       </p>

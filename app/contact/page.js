@@ -9,7 +9,7 @@ export default function ContactPage() {
       <div className="pill">Contact</div>
       <h1 className="section-title">Run a pilot or request a briefing.</h1>
       <p className="section-lead">
-        Reach the gridwise team to discuss industrial flexibility opportunities,
+        Reach the <strong>gridwise</strong> team to discuss industrial flexibility opportunities,
         pilot scope and utility coordination pathways.
       </p>
       <div className="hero-actions">
