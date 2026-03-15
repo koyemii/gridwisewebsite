@@ -14,7 +14,7 @@ export default function TeamPage() {
 
       <div className="grid">
         <div className="card">
-          <h3>Anshuman Banerjee - Founder &amp; CEO</h3>
+          <h3>Anshuman Banerjee - Founder</h3>
           <p>
             Anshuman Banerjee is the founder of <strong>gridwise</strong> and a technology and AI leader
             focused on applying operational intelligence to complex industrial systems. He previously
