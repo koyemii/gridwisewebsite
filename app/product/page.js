@@ -1,40 +1,39 @@
 export const metadata = {
-  title: "Product | Gridwise",
-  description: "Platform capabilities and architecture."
+  title: "Product | gridwise",
+  description: "AI-native operational intelligence platform for industrial energy optimisation."
 };
 
 export default function ProductPage() {
   return (
     <section className="section container">
       <div className="pill">Product</div>
-      <h1 className="section-title">AI-native orchestration built for real-world operations.</h1>
+      <h1 className="section-title">AI-native operational intelligence for industrial energy demand.</h1>
       <p className="section-lead">
-        Gridwise connects digital twins, predictive intelligence, and
-        multi-agent control to optimise enterprise energy performance while
-        delivering system-level flexibility.
+        gridwise connects facility operations with electricity system
+        conditions, identifying when and how energy-intensive processes can be
+        coordinated to improve economic and system outcomes.
       </p>
 
       <div className="grid grid-3">
         <div className="card">
-          <h3>Signal Intelligence</h3>
+          <h3>Condition Awareness</h3>
           <p>
-            Ingests operational data, price signals, weather forecasts, and
-            renewable availability proxies to anticipate conditions and
-            coordinate assets in advance.
+            Continuously evaluates electricity prices, renewable generation
+            patterns and grid conditions.
           </p>
         </div>
         <div className="card">
-          <h3>Asset Orchestration</h3>
+          <h3>Operational Coordination</h3>
           <p>
-            Coordinates HVAC, refrigeration, storage, EV charging, and critical
-            process loads with constraint-aware decisioning.
+            Coordinates operational decisions across energy-intensive equipment
+            and process steps.
           </p>
         </div>
         <div className="card">
-          <h3>System Coordination</h3>
+          <h3>Constraint Respect</h3>
           <p>
-            Aggregates flexibility across portfolios to support demand response,
-            reduce peak demand, and strengthen grid reliability.
+            All optimisation is bounded by production throughput, product
+            quality and operational safety constraints.
           </p>
         </div>
       </div>
@@ -42,35 +41,29 @@ export default function ProductPage() {
       <div className="section">
         <div className="split">
           <div>
-            <h2 className="section-title">Designed for high-renewable grids.</h2>
-            <p className="section-lead">
-              Gridwise is purpose-built for renewable-dominant systems where
-              supply variability needs intelligent, demand-side coordination.
-            </p>
+            <h2 className="section-title">Typical optimisation actions</h2>
             <div className="grid">
               <div className="card">
-                <h3>Multi-Objective Optimisation</h3>
-                <p>
-                  Balances cost, carbon, reliability, and operational
-                  productivity in a single optimisation engine.
-                </p>
+                <h3>Process scheduling</h3>
+                <p>Delay or reschedule eligible batch processes.</p>
               </div>
               <div className="card">
-                <h3>Explainable Decisioning</h3>
-                <p>
-                  Generates executive-ready explanations, audit trails, and
-                  scenario comparisons for CFO and operations teams.
-                </p>
+                <h3>Dynamic process modulation</h3>
+                <p>Modulate motors and pumps where process limits allow.</p>
+              </div>
+              <div className="card">
+                <h3>Thermal pre-conditioning</h3>
+                <p>Pre-cool refrigeration or pre-heat thermal systems ahead of peak periods.</p>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="pill">Core Outcomes</div>
+            <div className="pill">Published Metrics</div>
             <ul style={{ marginTop: "16px", display: "grid", gap: "12px" }}>
-              <li>8–15% enterprise energy cost reduction</li>
-              <li>10–20% peak demand reduction</li>
-              <li>Improved asset utilisation and maintenance planning</li>
-              <li>Aggregated flexibility for system support</li>
+              <li>10-25% operational demand flexibility potential</li>
+              <li>Reduced exposure to peak electricity prices</li>
+              <li>Improved alignment with renewable generation</li>
+              <li>Improved grid capacity utilisation</li>
             </ul>
           </div>
         </div>

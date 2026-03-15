@@ -5,17 +5,18 @@ export default function SiteHeader() {
     <header className="header">
       <div className="container nav">
         <Link className="logo" href="/">
-          Grid<span>wise</span>
+          grid<span>wise</span>
         </Link>
         <nav className="nav-links">
           <Link href="/product">Product</Link>
+          <Link href="/industries">Industries</Link>
+          <Link href="/utilities">Utilities</Link>
           <Link href="/poc">POC</Link>
           <Link href="/team">Team</Link>
-          <Link href="/contact">Contact</Link>
         </nav>
-        <Link className="cta" href="/contact">
-          Start a Pilot
-        </Link>
+        <a className="cta" href="mailto:contact@gridwise.nz?subject=Run%20a%20Pilot">
+          Run a Pilot
+        </a>
       </div>
     </header>
   );

@@ -1,75 +1,58 @@
 export const metadata = {
-  title: "POC | Gridwise",
-  description: "Proof-of-concept program and validation pathway."
+  title: "POC | gridwise",
+  description: "Pilot programme and proof-of-concept validation pathway."
 };
 
 export default function PocPage() {
   return (
     <section className="section container">
-      <div className="pill">Proof of Concept</div>
-      <h1 className="section-title">Enterprise + System impact in a 6–9 month pilot.</h1>
+      <div className="pill">POC</div>
+      <h1 className="section-title">Pilot programme for industrial operational flexibility.</h1>
       <p className="section-lead">
-        The Gridwise POC demonstrates real-world orchestration outcomes using
-        public New Zealand datasets and a synthetic archetype site digital twin.
+        Early partner facilities work with gridwise to identify operational
+        flexibility and quantify potential energy optimisation opportunities.
       </p>
 
-      <div className="grid grid-3">
-        <div className="card">
-          <h3>Archetype Site</h3>
-          <p>
-            Infrastructure energy hub model with flexible cooling, backup
-            batteries, and dispatchable loads.
-          </p>
+      <div className="timeline">
+        <div className="timeline-item">
+          <strong>Phase 1 - Operational Assessment</strong>
+          <span>Understand energy-intensive processes and operational constraints.</span>
         </div>
-        <div className="card">
-          <h3>System Signals</h3>
-          <p>
-            Overlay price data, temperature, and renewable availability proxies
-            to simulate grid variability and response.
-          </p>
+        <div className="timeline-item">
+          <strong>Phase 2 - Facility Modelling</strong>
+          <span>Build an operational model of energy assets and process interactions.</span>
         </div>
-        <div className="card">
-          <h3>Multi-Agent Control</h3>
-          <p>
-            AI agents coordinate load shifting, battery dispatch, and asset
-            scheduling to minimise cost and peak demand.
-          </p>
+        <div className="timeline-item">
+          <strong>Phase 3 - Optimisation Scenarios</strong>
+          <span>Evaluate scheduling strategies under varying market and grid conditions.</span>
+        </div>
+        <div className="timeline-item">
+          <strong>Phase 4 - Pilot Results</strong>
+          <span>Deliver quantified outputs for cost, flexibility and grid support outcomes.</span>
         </div>
       </div>
 
       <div className="section">
-        <div className="split">
-          <div>
-            <h2 className="section-title">POC roadmap</h2>
-            <div className="timeline">
-              <div className="timeline-item">
-                <strong>Weeks 1–2</strong>
-                <span>Data ingestion and baseline digital twin build.</span>
-              </div>
-              <div className="timeline-item">
-                <strong>Weeks 3–4</strong>
-                <span>Multi-agent orchestration logic + scenario engine.</span>
-              </div>
-              <div className="timeline-item">
-                <strong>Weeks 5–6</strong>
-                <span>Portfolio aggregation and system impact dashboard.</span>
-              </div>
-              <div className="timeline-item">
-                <strong>Weeks 7–8</strong>
-                <span>Executive reporting, pilot readiness, and validation plan.</span>
-              </div>
-            </div>
+        <div className="grid grid-3">
+          <div className="card">
+            <h3>Cost Optimisation Insight</h3>
+            <p>Quantified opportunities to reduce exposure to peak electricity prices.</p>
           </div>
           <div className="card">
-            <div className="pill">Target Outcomes</div>
-            <ul style={{ marginTop: "16px", display: "grid", gap: "12px" }}>
-              <li>Quantified enterprise ROI and peak reduction</li>
-              <li>Aggregated MW flexibility potential per 100 sites</li>
-              <li>Demand response readiness and pricing sensitivity</li>
-              <li>Evidence-based pilot deployment pathway</li>
-            </ul>
+            <h3>Operational Flexibility Insight</h3>
+            <p>Estimated demand flexibility potential under facility-specific constraints.</p>
+          </div>
+          <div className="card">
+            <h3>Grid Support Insight</h3>
+            <p>Potential contributions to peak reduction and infrastructure utilisation.</p>
           </div>
         </div>
+      </div>
+
+      <div className="section">
+        <a className="button-primary" href="mailto:contact@gridwise.nz?subject=Run%20a%20Pilot">
+          Run a Pilot
+        </a>
       </div>
     </section>
   );

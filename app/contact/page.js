@@ -1,42 +1,31 @@
 export const metadata = {
-  title: "Contact | Gridwise",
-  description: "Start a pilot or request a briefing."
+  title: "Contact | gridwise",
+  description: "Run a pilot or request a briefing."
 };
 
 export default function ContactPage() {
   return (
     <section className="section container">
       <div className="pill">Contact</div>
-      <h1 className="section-title">Let’s design a pilot.</h1>
+      <h1 className="section-title">Run a pilot or request a briefing.</h1>
       <p className="section-lead">
-        We are actively engaging with enterprise operators, grid stakeholders,
-        and public agencies. Share your objectives and we will follow up with a
-        tailored pilot roadmap.
+        Reach the gridwise team to discuss industrial flexibility opportunities,
+        pilot scope and utility coordination pathways.
       </p>
-
-      <div className="split">
-        <form className="form">
-          <input type="text" name="name" placeholder="Name" />
-          <input type="email" name="email" placeholder="Work email" />
-          <input type="text" name="org" placeholder="Organisation" />
-          <textarea name="message" placeholder="Tell us about your energy objectives." />
-          <button className="button-primary" type="submit">
-            Submit
-          </button>
-        </form>
-        <div className="card">
-          <div className="pill">Direct</div>
-          <p style={{ marginTop: "16px" }}>Auckland, New Zealand</p>
-          <p>contact@Gridwise.com</p>
-          <div style={{ marginTop: "24px" }}>
-            <div className="tag">Focus Areas</div>
-            <ul style={{ marginTop: "12px", display: "grid", gap: "10px" }}>
-              <li>Industrial & infrastructure energy orchestration</li>
-              <li>Digital twin modelling and validation</li>
-              <li>Demand response readiness and flexibility aggregation</li>
-            </ul>
-          </div>
-        </div>
+      <div className="hero-actions">
+        <a className="button-primary" href="mailto:contact@gridwise.nz?subject=Run%20a%20Pilot">
+          Run a Pilot
+        </a>
+        <a
+          className="button-secondary"
+          href="mailto:contact@gridwise.nz?subject=Request%20a%20Briefing"
+        >
+          Request a Briefing
+        </a>
+      </div>
+      <div className="card" style={{ marginTop: "24px" }}>
+        <p>Auckland, New Zealand</p>
+        <a href="mailto:contact@gridwise.nz">contact@gridwise.nz</a>
       </div>
     </section>
   );
