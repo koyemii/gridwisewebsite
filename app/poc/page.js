@@ -50,9 +50,19 @@ export default function PocPage() {
       </div>
 
       <div className="section">
-        <a className="button-primary" href="mailto:contact@gridwise.nz?subject=Run%20a%20Pilot">
-          Run a Pilot
-        </a>
+        <div className="hero-actions">
+          <a className="button-primary" href="mailto:contact@gridwise.nz?subject=Run%20a%20Pilot">
+            Run a Pilot
+          </a>
+          <a
+            className="button-secondary"
+            href="https://app.gridwise.nz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Our POC
+          </a>
+        </div>
       </div>
     </section>
   );

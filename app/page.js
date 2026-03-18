@@ -134,9 +134,19 @@ export default function HomePage() {
               Early partner facilities work with <strong>gridwise</strong> to identify
               operational flexibility and quantify optimisation opportunities.
             </p>
-            <Link className="button-primary" href="/poc">
-              View our POC
-            </Link>
+            <div className="hero-actions">
+              <Link className="button-primary" href="/poc">
+                View POC Page
+              </Link>
+              <a
+                className="button-secondary"
+                href="https://app.gridwise.nz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Our POC
+              </a>
+            </div>
           </div>
           <div className="timeline">
             <div className="timeline-item">
